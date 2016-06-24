@@ -83,6 +83,8 @@ public class MainActivity extends FragmentActivity implements PageFragmentWithPr
 
         premiumWallpaper = new PremiumWallpaper(this);
         //premiumWallpaper = new PremiumWallpaper(this, Wallpapers.images.length - 3, Wallpapers.images.length - 2, Wallpapers.images.length - 1);
+        premiumWallpaper.add(Wallpapers.images.length - 5);
+        premiumWallpaper.add(Wallpapers.images.length - 4);
         premiumWallpaper.add(Wallpapers.images.length - 3);
         premiumWallpaper.add(Wallpapers.images.length - 2);
         premiumWallpaper.add(Wallpapers.images.length - 1);
